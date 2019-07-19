@@ -7,7 +7,7 @@ title: Lewis's Blog
 subtitle:
 description: 花开堪折直须折
 keywords:
-author: Lewis Delver
+author: Lewis
 language:
 timezone:
 
@@ -77,10 +77,21 @@ theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
+# deploy:
+#   type: git
+#   repo: https://github.com/Lewiskong/MyBlog
+#   branch: published
 deploy:
-  type: git
-  repo: https://github.com/Lewiskong/MyBlog
-  branch: published
+  type: rsync
+  host: 139.199.225.203
+  user: root
+  root: /usr/local/service/MyBlog/public # 远程主机文件存储位置
+  port: 22
+  delete: true
+  args: # 提供的其它rsync参数信息
+  verbose: true # 输出详细信息，推荐true
+  ignore_errors: false # 即使出现IO错误也进行删除，推荐false
 
 ## yilia config
 jsonContent:

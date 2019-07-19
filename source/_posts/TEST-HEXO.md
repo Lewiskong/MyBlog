@@ -1,11 +1,11 @@
 ---
-title: TEST HEXO
+title: Hexo Rsync Deploy Test
 date: 2019-07-15 22:36:49
 tags:
 ---
 
 
-# Shell常用命令学习
+# Shell常用命令备忘
 ---
 
 ## xargs : execute arguments
