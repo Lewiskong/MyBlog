@@ -2,8 +2,11 @@
 title: Hexo Rsync Deploy Test
 date: 2019-07-15 22:36:49
 tags:
+- [hello world]
+- [test]
 ---
-
+Shell命令备忘
+<!-- more -->
 
 # Shell常用命令备忘
 ---
